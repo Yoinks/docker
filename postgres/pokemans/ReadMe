@@ -1,0 +1,2 @@
+docker build --tag herpderp:1.0 .
+docker run --name farts -e POSTGRES_PASSWORD=derp -d herpderp:1.0

@@ -1,0 +1,9 @@
+su postgres
+psql
+
+#CREATE DATABASE
+    CREATE DATABASE mydb
+
+#CREATE DB USER
+    create user mydbuser with encrypted password 'mydbpass';
+    grant all privileges on database mydb to mydbuser;
